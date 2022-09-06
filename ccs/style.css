@@ -306,13 +306,8 @@ footer{
     color: darkmagenta;
     border: 4rem 4rem;
     margin-bottom: 1rem;
-}
 
-    .divInput:hover{
-        background: linear-gradient(to top, rgb(30, 0, 139));
-        cursor: pointer;
-        
-    }
+}
 
 /*GRID*/
 /* curso de uñas*/
