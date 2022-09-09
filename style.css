@@ -18,35 +18,21 @@ body{
 }
 
 /*etiquetas para nav*/
-
-nav {
-
-    display: flex;
+.bgNav{
     background-color: rgba(186, 25, 236, 0.55);
-    position: sticky;
-    top: 0;
-    width: 100%;
 }
 
 
-ul{
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    margin-top: 1rem;
-}
 
 
-li{
-display:flex;
-flex-direction: row;
+.navLi{
 margin-left: 120px;
 margin-right: 0;
 
 }
 
 
-ul li a{
+.letra{
     color:black;
     font-size: x-large;
     text-decoration:none;
@@ -55,7 +41,7 @@ ul li a{
     transition: 1s;
 
 }
-nav ul a:hover{
+a:hover{
     text-decoration: underline;
     color: rgb(247, 202, 228);
 }
@@ -86,61 +72,20 @@ header img{
 }
 /*index*/
 
- /*grid*/
-
- .divMain{
-    display: grid;
-    grid-template-columns: 70rem 30rem;
-    grid-template-rows: 70rem;
-    grid-template-areas: "section aside";
-}
-
-#section{
-    grid-area: section;
-
-}
-
-#aside{
-    grid-area: aside;
-}
-
-div iframe{
-    margin-left: 20rem;
-}
-
-
-
-
 .parrafo{
     background-color: rgba(186, 25, 236, 0.55);
     font-size: 3rem;
-    width: 151rem;
-    height: 50rem;
     overflow: hidden;
-    margin-left: 0.5rem;
     padding: 1rem 1rem;
 
 }
 
 
-.imagenes{
-    display: inline;
-    margin-left: 40rem;
-}
-
-section img{
-    height: 25rem;
-    width: 25rem;
-    margin-top: 15rem;
-    margin-bottom: 15rem;
+.sectionImg{
     border-color: black;
     border-style: solid;
 
 
-}
-
-section img:hover{
-    transform: translateY(-10px);
 }
 
 
@@ -319,62 +264,10 @@ footer{
     
 }
 
-.sectionCurso{
-    display: flex;
-   align-items: center;
+.bgCurso{
    background-color: rgba(186, 25, 236, 0.55);
-   height: 40rem;
-    width: 100%;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+  
 }
-
-    .sectionCurso h2{
-		font-size: 3rem;
-		padding-left: 50px;
-        margin-right: 2rem;
-        font-weight: bolder;
-        
-		
-    }
-
-    .sectionCurso p{
-        font-size: 2rem;
-        margin-bottom: 10rem;
-        text-align: center;
-		
-    }
-
-
-    .sectionCursoGrid{
-        display: grid;
-        grid-template-columns: 30rem 100rem;
-        grid-template-rows: 10rem 40rem;
-        grid-template-areas:"img h2"
-        "img parrafo" ;
-    }
-
-    .imgCurso{
-        grid-area: img;
-        align-self: center;
-        justify-self: center;
-        width: 30rem;
-        height: 30rem;
-        margin-top: 2rem;
-    }
-
-    .h2Curso{
-        grid-area: h2;
-        align-self: center;
-        justify-self: center;
-        
-    }
-
-    .parrafoCurso{
-        grid-area: parrafo;
-        align-self: center;
-        justify-self: center;
-    }
 
 
 /*media*/
