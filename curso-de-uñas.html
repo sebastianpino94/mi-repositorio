@@ -1,88 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="uñas,pestañas,cursos">
-    <meta name="description" content="Una manicura es un tratamiento de belleza cosmético para las uñas y manos que suele realizarse en casa o en un salón de belleza.">
-    <!--titulo en la solapa de la web-->
-    <title>Creativa Nails&Lash-CursoDeUñas</title>
-    <!--icono de la solapa-->
-    <link rel="shortcut icon" href="imagenes/logo-creativa.jpeg" type="image/x-icon">
- <!--css-->
- <link rel="stylesheet" href="style.css">
- <link rel="stylesheet" href="ccs/animate.css">
+  <!--meta datos-->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="uñas,pestañas,cursos">
+  <meta name="description" content="Una manicura es un tratamiento de belleza cosmético para las uñas y manos que suele realizarse en casa o en un salón de belleza.">
+  <!--titulo en la solapa de la web-->
+  <title>Creativa Nails&Lash</title>
+  <!--icono de la solapa-->
+  <link rel="shortcut icon" href="imagenes/logo-creativa.jpeg" type="image/x-icon">
+  <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!--css-->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/animate.css">
+
 </head>
-<body class="cursoGrid">
-  <!--etiquetas semanticas-->
-  <nav id="navCurso" class="nav">
-    <a href="index.html">
-      <img src="Imagenes/logo-creativa-2.jpeg" alt="logo De CreativaSP">
-    </a>
-    <ul>
-      <li>
-        <a href="index.html">Home</a>
-      </li>
-      <li>
-        <a href="Curso-de-uñas.html">Cursos de uñas</a>
-      </li>
-      <li>
-        <a href="servicio-de-pestañas.html">Servicio de pestañas</a>
-      </li>
-   
-    <li>
-      <a href="servicio-de-uñas.html">Servicio de uñas</a>
-    </li>
-      <li>
-        <a href="contacto.html">Contacto</a>
-      </li>
+<body>
+  <!--nav-->
+  <nav class="row navbar navbar-expand-lg navbar-light bgNav sticky-top">
+    <div class="col-sm-12 col-md-12 col-lg-12 container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="Imagenes/logo-creativa-2.jpeg" alt="logo de creativa">
+      </a>
+      <!--boton hambuguesa-->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    </ul>
+      <div class="navLi collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="navLi nav-item">
+            <a class="letra nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="navLi nav-item">
+            <a class="letra nav-link" href="curso-de-uñas.html">Cursos de Uñas</a>
+          </li>
+          <li class="navLi nav-item dropdown">
+            <a class="letra nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Servicios
+            </a>
+            <ul class="navLi dropdown-menu bgNav" aria-labelledby="navbarDropdown">
+              <li><a class="letra dropdown-item bgNav" href="servicio-de-uñas.html">Servicios de uñas</a></li>
+              <li><a class="letra dropdown-item bgNav" href="servicio-de-pestañas.html">Servicios de pestañas</a></li>
+              <li><hr class="letra dropdown-divider"></li>
+            </ul>
+          <li class="navLi nav-item">
+            <a class="letra nav-link" href="contacto.html" tabindex="-1" aria-disabled="true">Contacto</a>
+          </li>
+            
+          
+        </ul>
+      </div>
+    </div>
   </nav>
+  <!--cierra nav-->
 
-  <header>
-    <div id="headerCurso">
+  <header class="row"> 
+    <div class="col-sm-12 col-md-12 col-lg-12" id="header">
         <img src="Imagenes/index-cursos.jpeg" alt="Imagen index">
   </header>
 </div>
   <main>
-    <div id="mainCurso">
-        <h1 class="wow bounceInDown h1">Nuestros Cursos</h1>
+    <div class="row">
+        <h1 class="col-sm-12 col-md-12 col-lg-12 wow bounceInDown h1">Nuestros Cursos</h1>
 
-    <div class="divCurso">
+    <div class="col-sm-12 col-md-12 col-lg-12 divCurso">
           <p>Lorem idpsum dolor sit amet consectetur, adipisicing elit. Nihil praesentium modi, ut tempora cumque nulla fugit, laborum ratione ipsa fuga reprehenderit illum? Atque, dignissimos quibusdam earum illo eos similique obcaecati.</p>
     </div>
+  </div >
+  <div class="row">
+   <!--empieza card 1-->
+        <div class="pt-1 pb-1 my-1 mx-1 bgCurso col-sm-12-col-md-6-col-lg-3 card" style="width:50rem;">
+          <img src="Imagenes/esculpidas-en-gel.jpg" class="h-50 card-img-top" alt="curso esculpida">
+          <div class="card-body">
+            <h2 class="card-title fw-bolder fs-1">Esculpidas</h2>
+            <p class="card-text fs-2">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      </div>
+    </div>
+    <!--termina card1-->
+   
+    <!--empieza card2-->
+    <div class="pt-1 pb-1 my-1 mx-1 bgCurso col-sm-12-col-md-6-col-lg-3 card" style="width: 50rem;">
+      <img src="Imagenes/semipermanente.jpg" class="h-50 card-img-top" alt="imagen semipermanente">
+      <div class="card-body">
+        <h2 class="card-title fw-bolder fs-1">Semipermanente</h2>
+        <p class="card-text fs-2">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      </div>
+    </div>
+    <!--termina card2-->
+   
+     <!--empieza card3-->
+     <div class="pt-1 pb-1 my-1 mx-1 bgCurso col-sm-12-col-md-6-col-lg-3 card" style="width: 50rem;">
+      <img src="Imagenes/Kapping.jpg" class="h-50 card-img-top" alt="Imagen de capping">
+      <div class="card-body">
+        <h2 class="card-title fw-bolder fs-1">Kapping</h2>
+        <p class="card-text fs-2">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      </div>
+    </div>
+    <!--termina card3-->
+
+    <!--empieza card4-->
+       <div class="pt-1 pb-1 my-1 mx-1 bgCurso col-sm-12-col-md-6-col-lg-3 card" style="width: 50rem;">
+        <img src="Imagenes/soft-gel.jpg" class="h-50 card-img-top" alt="imagen soft gel">
+        <div class="card-body">
+          <h2 class="card-title fw-bolder fs-1">Soft Gel</h2>
+          <p class="card-text fs-2">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+    <!--termina card4-->
   </div>
-  <div id="sectionCurso">
-    <section class="wow slideInLeft sectionCurso sectionCursoGrid">
-          
-      <img class="imgCurso" src="Imagenes/semipermanente.jpg" alt="Curso De SemiPermanentes">  
-        <h2 class="h2Curso">Curso de semipermanente</h2>
-        <p class="parrafoCurso">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta fugit voluptatibus veritatis consequuntur corrupti voluptatem illo molestias aperiam suscipit officia asperiores ad, rem cupiditate doloribus sunt, dolore porro quam. Atque.</p>
-    </section>
-
-    <section class="wow slideInLeft sectionCurso sectionCursoGrid">
-      <img class="imgCurso" src="Imagenes/esculpidas-en-gel.jpg" alt="Curso De Esculpidas">    
-        <h2 class="h2Curso">Curso de esculpidas</h2>
-        <p class="parrafoCurso"> el curso de esculpidas conssite en..</p>
-    </section>
-
-    <section class="wow slideInLeft sectionCurso sectionCursoGrid">
-      <img class="imgCurso" src="Imagenes/Kapping.jpg" alt="Curso De Capping">
-        <h2 class="h2Curso">Curso de capping</h2>
-        <p class="parrafoCurso">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore esse quos odio perferendis iusto iure vero sapiente nihil dolor vel iste, quod officiis quo quibusdam, explicabo quas quaerat placeat corporis.</p> 
-    </section>
-
-    <section class="wow slideInLeft sectionCurso sectionCursoGrid">
-      <img class="imgCurso" src="Imagenes/Soft-gel.jpg" alt="Curso De SoftGel"> 
-       <h2 class="h2Curso">Curso de soft gel</h2>
-       <p class="parrrafoCurso">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, aut inventore magni, velit eum explicabo laboriosam perspiciatis accusamus distinctio ab recusandae, quis tenetur nisi expedita aspernatur quas sunt pariatur corporis.</p>  
-    </section>
-  </div>
+ 
   </main>
 
-  <footer id="footerCurso" class="pie">
+  <footer id="footer" class="row bounceInDown pie">
+    <div class="col-sm-12 col-md-12 col-lg-12" >
 
     <h3 id="h3">Seguinos en nuestras redes</h3>
 
@@ -97,14 +131,15 @@
     <a href="https://www.tiktok.com/@creativa.sp?_t=8UfkLjLhj77&_r=1" target="_blank">
       <img src="Imagenes/tik-tok.png" alt="Seguinos en tik tok">
     </a>
+  </div>
 
    </footer>
+  <script src="js/wow.min.js"></script>
+  <script>
+      new WOW().init();
+  </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-   <script src="js/wow.min.js"></script>
-<script>
-    new WOW().init();
-</script>
-
-    
+  
 </body>
 </html>
