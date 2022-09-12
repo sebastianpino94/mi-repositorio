@@ -11,40 +11,36 @@ html{
 }
 
 /*imagen de fondo*/
-body{
-    background-image: url(Imagenes/imagen-fondo.jpeg) ;
-    background-size: cover;
-    background-repeat: none;
+
+.main{
+    overflow-x: hidden;
 }
 
 /*etiquetas para nav*/
 .bgNav{
-    background-color: rgba(186, 25, 236, 0.55);
+    background-color: #ffffff;
 }
-
-
 
 
 .navLi{
-margin-left: 120px;
-margin-right: 0;
+    margin-left: 60px;
+    margin-right: 2rem;
+    font-size: 2rem;
+    font-weight: bolder
 
-}
+
+    }
+.navLi a:hover{
+    color: black;
+}    
 
 
 .letra{
-    color:black;
-    font-size: x-large;
     text-decoration:none;
-    padding: 0px 1px;
+    font-size: 1rem;
     font-weight: bolder;
-    transition: 1s;
+}
 
-}
-a:hover{
-    text-decoration: underline;
-    color: rgb(247, 202, 228);
-}
 
 /*header*/
 
@@ -56,14 +52,14 @@ header img{
 
 
 .h1{
-    background: linear-gradient(90deg, rgba(186,25,236,1) 41%, rgba(255,0,194,0.4683006991859243) 50%);
+    background-color: #f6d1de;
     text-align: center;
     font-weight: bolder;
     font-size: 10rem;
 }
 
 .h2{
-    background-color:rgb(240, 41, 240) ;
+    background-color:#e0bbe4;
     font-weight: bolder;
     font-size: 5rem;
     text-align: center;
@@ -73,18 +69,35 @@ header img{
 /*index*/
 
 .parrafo{
-    background-color: rgba(186, 25, 236, 0.55);
+    background-color: #d291bc;
     font-size: 3rem;
     overflow: hidden;
     padding: 1rem 1rem;
 
 }
 
+.divfigure{
+   background-image: url(Imagenes/backgroundimage2.webp) ;
+background-size: cover;
+background-repeat: none;
+}
+
+.bgfigure1{
+    border-color: #000000;
+    border-style: solid;
+    background-color: black;
+}
+
+
+.fontFigure{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #f6d1de;
+}
 
 .sectionImg{
     border-color: black;
     border-style: solid;
-
 
 }
 
@@ -195,64 +208,6 @@ footer{
 /*contacto*/
 
 
-.sectionContacto{
-    display: flex;
-    justify-content: flex-start;
-}
-
-
-.imgContacto{
-    width: 13rem;
-    height: 13rem;
-}
-
-.pContacto{
-    font-size: 6rem;
-    margin-top: 6rem;
-
-}
-
-.divContacto{
-    text-align: center;
-    margin-right: 2rem;
-    margin-left: 2rem;
-    margin: 2rem;
-}
-
-
-
-.sectionMensaje{
-    display: flex;
-    flex-direction: column;
-}
-
-    .sectionMensaje div{
-        margin-top: 1rem;
-        margin-left: 1rem;
-    }
-  
-   .sectionMensaje div label{
-      font-weight: bolder;
-      font-size: 4rem;
-      color: darkmagenta;
-      margin-right: 1rem;
-   }
-
-   .sectionMensaje div input{
-
-      width: 13rem;
-      height: 4rem;
-
-   }
-
-.divInput{
-    border-color: darkmagenta;
-    border-style: solid;
-    color: darkmagenta;
-    border: 4rem 4rem;
-    margin-bottom: 1rem;
-
-}
 
 /*GRID*/
 /* curso de uñas*/
@@ -265,11 +220,33 @@ footer{
 }
 
 .bgCurso{
-   background-color: rgba(186, 25, 236, 0.55);
+   background-color: #e0bbe4;
   
 }
 
+.bgcurso1{
+background-color: #ccdcfd;
+}
 
+.bgcurso2{
+    background-color: #bbbefe;
+}
+
+.bgcurso3{
+    background-color: #9ea3f5;
+}
+
+.bgcurso4{
+    background-color: #e8bffb;
+}
+
+.bgcurso5{
+    background-color: #f2a5e8;
+}
+
+.bgcurso6{
+    background-color: #dd99e2;
+}
 /*media*/
 
     @media(max-width: 480px){
