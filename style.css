@@ -26,13 +26,14 @@ html{
     margin-left: 60px;
     margin-right: 2rem;
     font-size: 2rem;
-    font-weight: bolder
-
-
+    font-weight: bolder;
+    transition: font-size 1s;
     }
+
 .navLi a:hover{
+    font-size: 3rem;
     color: black;
-}    
+} 
 
 
 .letra{
@@ -93,6 +94,11 @@ background-repeat: none;
     font-size: 2rem;
     font-weight: bolder;
     color: #f6d1de;
+    transition: font-size 1s;
+}
+
+.fontFigure:hover{
+font-size: 3rem;
 }
 
 .sectionImg{
@@ -100,6 +106,7 @@ background-repeat: none;
     border-style: solid;
 
 }
+
 
 
 /*footer*/
