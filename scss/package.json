@@ -1,0 +1,22 @@
+{
+  "name": "entrega-pino-sebastian---copia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastianpino94/mi-repositorio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sebastianpino94/mi-repositorio/issues"
+  },
+  "homepage": "https://github.com/sebastianpino94/mi-repositorio#readme",
+  "dependencies": {
+    "sass": "^1.54.9"
+  }
+}

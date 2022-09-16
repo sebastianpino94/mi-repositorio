@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.main {
+  overflow-x: hidden;
+}
+
+nav {
+  background-color: #ffffff;
+}
+
+.navLi {
+  margin-left: 60px;
+  margin-right: 2rem;
+  font-size: 2rem;
+  font-weight: bolder;
+  transition: font-size 1s;
+}
+.navLi .navLi a:hover {
+  font-size: 3rem;
+  color: black;
+}
+
+.letra {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bolder;
+}
+
+.h1 {
+  background-color: #f6d1de;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 10rem;
+}
+
+.h2 {
+  background-color: #e0bbe4;
+  font-weight: bolder;
+  font-size: 5rem;
+  text-align: center;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+footer {
+  background-color: #000000;
+}
+
+.pie {
+  text-align: center;
+  padding: 6px 20px;
+}
+
+#h3 {
+  font-weight: bolder;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+header img {
+  width: 100%;
+}
+
+.parrafo {
+  background-color: #d291bc;
+  font-size: 3rem;
+  overflow: hidden;
+  padding: 1rem 1rem;
+}
+
+.divfigure {
+  background-image: url(Imagenes/backgroundimage2.png);
+  background-size: cover;
+  background-repeat: none;
+}
+
+.bgfigure1 {
+  border-color: #000000;
+  border-style: solid;
+  background-color: black;
+}
+
+.fontFigure {
+  font-size: 2rem;
+  font-weight: bolder;
+  color: #f6d1de;
+  transition: font-size 1s;
+}
+.fontFigure .fontFigure:hover {
+  font-size: 3rem;
+}
+
+.sectionImg {
+  border-color: #000000;
+  border-style: solid;
+}
+
+/*# sourceMappingURL=main.css.map */

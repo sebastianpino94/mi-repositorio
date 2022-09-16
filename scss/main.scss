@@ -1,0 +1,53 @@
+@import "_commit.scss";
+@import "_nav.scss";
+@import "_h1al6.scss";
+@import "_footer.scss";
+@import "_colores.scss";
+
+//header imagen//
+header img{
+    width: 100%;
+}
+
+
+.parrafo{
+    background-color: $bgparrafo;
+    font-size: 3rem;
+    overflow: hidden;
+    padding: 1rem 1rem;
+
+}
+
+.divfigure{
+   background-image: url(Imagenes/backgroundimage2.png) ;
+background-size: cover;
+background-repeat: none;
+}
+
+.bgfigure1{
+    border-color: #000000;
+    border-style: solid;
+    background-color: black;
+}
+
+
+.fontFigure{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #f6d1de;
+    transition: font-size 1s;
+    .fontFigure:hover{
+        font-size: 3rem;
+        }
+}
+
+
+
+.sectionImg{
+    border-color: $bgnegro;
+    border-style: solid;
+
+}
+
+
+
