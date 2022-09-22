@@ -1,4 +1,11 @@
 
+$bgparrafo: #d291bc;
+
+
+$bgnegro: #000000;
+
+$negrita: bolder;
+
 
 footer{
     background-color:$bgnegro
@@ -9,10 +16,9 @@ footer{
 	padding: 6px 20px;
 }
 
+
 .footer{
     font-weight: bolder;
     font-size:25px;
     color: $bgblanco;
-
-    
-}
+    }
