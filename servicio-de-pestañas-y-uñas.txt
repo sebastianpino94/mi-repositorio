@@ -1,0 +1,1 @@
+En las paginas servicio de uñas y servicio d pestañas se agrego un mapa con los background color que utilizo, tambien se agregaron dos mixin uno para direccionar con flex y otro de tamaño de fuente y alineamiento de texto.
