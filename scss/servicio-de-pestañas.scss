@@ -1,0 +1,105 @@
+//mixin de texto //
+@mixin texto($fs,$ta) {
+    font-size:$fs;
+    text-align: $ta;
+    
+}
+//mixin flex para centrar//
+@mixin flex($dflex,$jcontent,$aitem){
+    display: $dflex;
+    justify-content: $jcontent;
+    align-items: $aitem;
+}
+
+//mapa//
+$bgcolores:(
+    'bg':#e0bbe4,
+    'bg1':#ccdcfd,
+    'bg2':#bbbefe,
+    'bg3':#9ea3f5,
+    'bg4':#e8bffb,
+    'bg5':#f2a5e8,
+    'bg6':#dd99e2,
+);
+
+.sectionPesta{
+    display: flex;
+    justify-content: center;
+ 
+    .cardPesta{
+        background-color: map-get($map: $bgcolores, $key:bg);
+        margin: 0.5rem 0.5rem;
+        h3{
+           @include texto(3rem,center);
+            font-weight: $negrita;
+            
+        
+        }
+        width: 50rem;
+        div p{
+            @include texto(2rem,center);
+        }
+    
+    
+        img{
+            height: 30rem;
+        }
+        ul li{
+            @include texto(2rem,center);
+        }
+        a{
+            font-size: 2rem;
+            @include flex(flex,center,center);
+        }
+
+}
+
+  
+}
+
+//seccion uñas//
+
+.sectionUñas{
+    @include flex (flex,center,none);
+
+
+    .cardUñas{
+        background-color: map-get($map: $bgcolores, $key:bg );
+        margin: 2rem;
+        width: 40rem;
+        border-radius: 1rem;
+        border-color: black;
+        border-style: solid;
+        border:1rem 1rem;
+
+        h2{
+            @include texto(3rem,center);
+            font-weight:$negrita;
+        }
+        img{
+            height: 30rem;
+        }
+        p{
+            @include texto(2rem,center);
+        }
+
+        a{
+        
+            @include flex(flex,center,center);
+            font-size:2rem;
+            font-weight: $negrita;
+            transition: font-size 1s;
+            background: map-get($map: $bgcolores, $key:bg6 );
+            border-color:black;
+            border:1rem;
+            .cardUñas a:hover{
+                font-size: 3rem;
+                color:white;
+             }
+            
+
+        }
+    }
+}
+
+

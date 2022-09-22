@@ -1,0 +1,28 @@
+@import "_variables.scss";
+@import "_commit.scss";
+@import "_h1al6.scss";
+@import "index.scss";
+@import "_nav.scss";
+@import "_footer.scss";
+@import "cursos.scss";
+@import "servicio-de-pestañas.scss";
+
+
+//header imagen//
+header img{
+    width: 100%;
+}
+
+//todos los parrafos//
+.parrafo{
+    background-color: $bgparrafo;
+    font-size: 3rem;
+    overflow: hidden;
+    padding: 1rem 1rem;
+
+}
+
+
+
+
+

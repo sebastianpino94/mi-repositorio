@@ -1,0 +1,29 @@
+
+$negrita: bolder;
+
+
+
+nav{
+    background-color: $bgblanco;
+}
+
+.navLi{
+    margin-left: 60px;
+    margin-right: 2rem;
+    font-size: 2rem;
+    font-weight: $negrita;
+    transition: font-size 1s;
+    .navLi a:hover{
+        font-size: 3rem;
+        color: black;
+    } 
+    }
+
+
+
+
+.letra{
+    text-decoration:none;
+    font-size: 1rem;
+    font-weight:$negrita;
+}
