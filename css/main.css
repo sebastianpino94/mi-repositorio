@@ -1,0 +1,218 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.main {
+  overflow-x: hidden;
+}
+
+.h1 {
+  background-color: #f6d1de;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 10rem;
+}
+
+.h2 {
+  background-color: #e0bbe4;
+  font-weight: bolder;
+  font-size: 5rem;
+  text-align: center;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.divfigure {
+  background-image: url(Imagenes/backgroundimage2.png);
+  background-size: cover;
+  background-repeat: none;
+}
+
+.bgfigure1 {
+  border-color: #000000;
+  border-style: solid;
+  background-color: #000000;
+}
+
+.fontFigure {
+  font-size: 2rem;
+  font-weight: bolder;
+  color: #f6d1de;
+  transition: font-size 1s;
+}
+
+.fontFigure:hover {
+  font-size: 3rem;
+}
+
+.sectionImg {
+  border-color: black;
+  border-style: solid;
+}
+
+.parrafo {
+  background-color: #d291bc;
+  font-size: 3rem;
+  overflow: hidden;
+  padding: 1rem 1rem;
+}
+
+nav {
+  background-color: #ffffff;
+}
+
+.navLi {
+  margin-left: 60px;
+  margin-right: 2rem;
+  font-size: 2rem;
+  font-weight: bolder;
+  transition: font-size 1s;
+}
+.navLi .navLi a:hover {
+  font-size: 3rem;
+  color: black;
+}
+
+.letra {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bolder;
+}
+
+footer {
+  background-color: #000000;
+}
+
+.pie {
+  text-align: center;
+  padding: 6px 20px;
+}
+
+.footer {
+  font-weight: bolder;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.bgCurso {
+  background-color: #e0bbe4;
+}
+
+.bgcurso1 {
+  background-color: #ccdcfd;
+}
+
+.bgcurso2 {
+  background-color: #bbbefe;
+}
+
+.bgcurso3 {
+  background-color: #9ea3f5;
+}
+
+.bgcurso4 {
+  background-color: #e8bffb;
+}
+
+.bgcurso5 {
+  background-color: #f2a5e8;
+}
+
+.bgcurso6 {
+  background-color: #dd99e2;
+}
+
+.sectionPesta {
+  display: flex;
+  justify-content: center;
+}
+.sectionPesta .cardPesta {
+  background-color: #e0bbe4;
+  margin: 0.5rem 0.5rem;
+  width: 50rem;
+}
+.sectionPesta .cardPesta h3 {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: bolder;
+}
+.sectionPesta .cardPesta div p {
+  font-size: 2rem;
+  text-align: center;
+}
+.sectionPesta .cardPesta img {
+  height: 30rem;
+}
+.sectionPesta .cardPesta ul li {
+  font-size: 2rem;
+  text-align: center;
+}
+.sectionPesta .cardPesta a {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionUñas {
+  display: flex;
+  justify-content: center;
+  align-items: none;
+}
+.sectionUñas .cardUñas {
+  background-color: #e0bbe4;
+  margin: 2rem;
+  width: 40rem;
+  border-radius: 1rem;
+  border-color: black;
+  border-style: solid;
+  border: 1rem 1rem;
+}
+.sectionUñas .cardUñas h2 {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: bolder;
+}
+.sectionUñas .cardUñas img {
+  height: 30rem;
+}
+.sectionUñas .cardUñas p {
+  font-size: 2rem;
+  text-align: center;
+}
+.sectionUñas .cardUñas a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bolder;
+  transition: font-size 1s;
+  background: #dd99e2;
+  border-color: black;
+  border: 1rem;
+}
+.sectionUñas .cardUñas a .cardUñas a:hover {
+  font-size: 3rem;
+  color: white;
+}
+
+header img {
+  width: 100%;
+}
+
+.parrafo {
+  background-color: #d291bc;
+  font-size: 3rem;
+  overflow: hidden;
+  padding: 1rem 1rem;
+}
+
+/*# sourceMappingURL=main.css.map */
