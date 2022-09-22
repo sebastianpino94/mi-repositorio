@@ -14,7 +14,7 @@
   <!--bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <!--css-->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/animate.css">
 </head>
 <body class="main">
@@ -29,6 +29,8 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
+      <!--list-->
+
       <div class="navLi collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="navLi nav-item">
@@ -37,15 +39,13 @@
           <li class="navLi nav-item">
             <a class="nav-link" href="curso-de-uñas.html"> Cursos de Uñas</a>
           </li>
-          <li class="navLi nav-item dropdown">
-            <a class="nav-link  dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Servicios
-            </a>
-            <ul class="navLi dropdown-menu bgNav" aria-labelledby="navbarDropdown">
-              <li><a class="fw-bolder dropdown-item bgNav" href="servicio-de-uñas.html">Servicios de uñas</a></li>
-              <li><a class="fw-bolder dropdown-item bgNav" href="servicio-de-pestañas.html">Servicios de pestañas</a></li>
-              <li><hr class=" dropdown-divider"></li>
-            </ul>
+          <li class="navLi nav-item">
+            <a class="nav-link" href="servicio-de-uñas.html"> Servicios de Uñas</a>
+          </li>
+          <li class="navLi nav-item">
+            <a class="nav-link" href="servicio-de-pestañas.html"> Servicios de Uñas</a>
+          </li>
+          
           <li class="navLi nav-item">
             <a class="nav-link" href="contacto.html" tabindex="-1" aria-disabled="true">Contacto</a>
           </li>
@@ -56,47 +56,69 @@
     </div>
   </nav>
   <!--cierra nav-->
+
   <header>
     <img src="Imagenes/index-uñas.jpeg" alt="ImagenIndex">
   </header>
+
   <main>
     <h1 class="wow tada h1">Servicio De Uñas</h1>
-    <section class="serviciosUñas">
-    <figure>   
-      <img src="Imagenes/semipermanente-creativa.jpeg" alt="uñas semipermanentes">
-      <figcaption>Semipermanentes</figcaption>
-      <p>$1000</p>
-    </figure>
+  
+  <section class="row sectionUñas">
+      <!--card 1-->
+    <div class="card cardUñas col-sm-12 col-md-12 col-lg-4 col-xl-3 ">
+  <img src="Imagenes/semipermanente-creativa.jpeg" class="card-img-top" alt="uñas semipermanentes">
+  <div class="card-body">
+    <h2 class="card-title">Semipermanentes</h2>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn">Consegui tu turno</a>
+  </div>
+</div>
+<!--card2-->
+<div class="card cardUñas col-md-12 col-lg-4 col-xl-3">
+  <img src="Imagenes/esculpidas-creativa.jpeg" class="card-img-top" alt="uñas esculpidas">
+  <div class="card-body">
+    <h2 class="card-title">Esculpidas</h2>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn">Consegui tu turno</a>
+  </div>
+</div>
+<!--card3-->
+<div class="card cardUñas col-md-12 col-lg-4 col-xl-3">
+  <img src="Imagenes/capping-creativa.jpeg" class="card-img-top" alt="imagen de capping">
+  <div class="card-body">
+    <h2 class="card-title">Capping</h2>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn">Consegui tu turno</a>
+  </div>
+</div>
+<!--card 4-->
+<div class="card cardUñas  col-md-12 col-lg-4 col-xl-3">
+  <img src="Imagenes/softgel-creativa.jpeg" class="card-img-top" alt="uñas soft gel">
+  <div class="card-body">
+    <h2 class="card-title">Soft Gel</h2>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn">Consegui tu turno</a>
+  </div>
+</div>
+<!--card 5-->
+<div class="card cardUñas col-md-12 col-lg-4 col-xl-3">
+  <img src="Imagenes/press-creativa.jpeg" class="card-img-top" alt="uñas postizas press on nails">
+  <div class="card-body">
+    <h2 class="card-title">Press On Nails</h2>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn">Consegui tu turno</a>
+  </div>
+</div>
 
-    <figure> 
-      <img src="imagenes/esculpidas-creativa.jpeg" alt="Uñas Esculpidas">
-      <figcaption>Esculpidas</figcaption>
-      <p>$2000</p>
-    </figure>
+</section>
+<!--cierra section-->
 
-    <figure>
-      <img src="imagenes/capping-creativa.jpeg" alt="Capping">
-      <figcaption>Capping</figcaption>
-      <p>$1500</p>    
-    </figure>
-
-     <figure>
-      <img src="imagenes/softgel-creativa.jpeg" alt="SoftGel">
-      <figcaption>Soft Gel</figcaption>
-      <p>$2000</p>
-    </figure>
-
-    <figure>
-      <img src="Imagenes/press-creativa.jpeg" alt="Press On Nails">
-      <figcaption>Press On Nails</figcaption>
-      <p>$1200</p>
-    </figure>
-
-    </section>
   </main>
+  <!--abre footer-->
   <footer class="pie">
 
-    <h3 id="h3">Seguinos en nuestras redes</h3>
+    <h3 class="footer">Seguinos en nuestras redes</h3>
 
     <a href="https://www.facebook.com/creaativa.sp" target="_blank">
       <img src="Imagenes/facebook2.png" alt="Seguinos en facebook">
@@ -111,6 +133,7 @@
     </a>
 
    </footer>
+   <!--script-->
 
    <script src="js/wow.min.js"></script>
    <script>
