@@ -102,4 +102,44 @@ $bgcolores:(
     }
 }
 
+.sectionContacto{
+    
+    @include flex(flex,center,center);
+    img{
+        width:150px;
+        height: 100px;
+    }
+    p{
+        @include texto(4rem,center);
+        margin-left:1rem;
+        margin-right: 1rem;
+       
+    }
+    p:hover{
+        color:map-get($map: $bgcolores, $key:bg4 );
+    }
+}
+
+.sectionMensaje{
+
+    label{
+    @include texto(2rem,center);
+    }
+    input{
+        width: 150px;
+        height: 40px;
+        margin-top: 10px;
+    }
+    textarea{
+        margin-top:10px;
+    }
+    .divInput{
+        background-color:map-get($map: $bgcolores, $key: bg1);
+        width: 200px;
+    }
+    .divInput:hover{
+        background-color: map-get($map: $bgcolores, $key: bg2);
+    }
+   
+}
 
