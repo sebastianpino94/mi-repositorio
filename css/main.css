@@ -204,6 +204,45 @@ footer {
   color: white;
 }
 
+.sectionContacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sectionContacto img {
+  width: 150px;
+  height: 100px;
+}
+.sectionContacto p {
+  font-size: 4rem;
+  text-align: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.sectionContacto p:hover {
+  color: #e8bffb;
+}
+
+.sectionMensaje label {
+  font-size: 2rem;
+  text-align: center;
+}
+.sectionMensaje input {
+  width: 150px;
+  height: 40px;
+  margin-top: 10px;
+}
+.sectionMensaje textarea {
+  margin-top: 10px;
+}
+.sectionMensaje .divInput {
+  background-color: #ccdcfd;
+  width: 200px;
+}
+.sectionMensaje .divInput:hover {
+  background-color: #bbbefe;
+}
+
 header img {
   width: 100%;
 }
