@@ -17,9 +17,10 @@
   <link rel="stylesheet" href="css/animate.css">
 </head>
 
-<body class="main">
+  <body class="main">
+    <!--nav-->
   <!--nav-->
-  <nav class="row navbar navbar-expand-lg navbar-light bgNav sticky-top">
+  <nav class="row navbar navbar-expand-lg navbar-light sticky-top">
     <div class="col-sm-12 col-md-12 col-lg-12 container-fluid">
       <a class="navbar-brand" href="index.html">
         <img src="Imagenes/logonuevo.jpeg" alt="logo de creativa">
@@ -34,18 +35,19 @@
           <li class="navLi nav-item">
             <a class="nav-link" aria-current="page" href="index.html">Home</a>
           </li>
+
           <li class="navLi nav-item">
             <a class="nav-link" href="curso-de-uñas.html"> Cursos de Uñas</a>
           </li>
-          <li class="navLi nav-item dropdown">
-            <a class="nav-link  dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Servicios
-            </a>
-            <ul class="navLi dropdown-menu bgNav" aria-labelledby="navbarDropdown">
-              <li><a class="fw-bolder dropdown-item bgNav" href="servicio-de-uñas.html">Servicios de uñas</a></li>
-              <li><a class="fw-bolder dropdown-item bgNav" href="servicio-de-pestañas.html">Servicios de pestañas</a></li>
-              <li><hr class=" dropdown-divider"></li>
-            </ul>
+
+          <li class="navLi nav-item">
+            <a class="nav-link" href="servicio-de-uñas.html">Servicios de uñas</a>
+          </li>
+
+          <li class="navLi nav-item">
+            <a class="nav-link" href="servicio-de-pestañas.html">Servicios de pestañas</a>
+          </li>
+
           <li class="navLi nav-item">
             <a class="nav-link" href="contacto.html" tabindex="-1" aria-disabled="true">Contacto</a>
           </li>
@@ -64,24 +66,32 @@
 
     <main>
       <div >
-        <h1 class="h1">Contactanos</h1>
+        <h1 class="wow bounceInDown h1">Contactanos</h1>
+        
+<!--card-->
+<div class=" carta row">
+<div class="wow bounceInLeft col-sm-12 col-md-12 col-lg-6 carta card">
+  <img src="Imagenes/logogrande.jpeg" class="imgcardcontacto card-img-top" alt="logo de creativa!">
+  <div class=" card-body">
+
+    <p class="parrafo card-text">Te dejamos nuestro email para que puedas comunicarte con nosotros.</p>          
+    <div class="divimgcontacto">
+      <img class="imgContacto" src="imagenes/gmail.jpg" alt="Logo De Gmail">
+      <a href="email.com" class="wow pulse pContacto"> Email: CreativaSP@gmail.com</a>
       </div>
-        <section class="row sectionContacto">
-          <div class="col-sm-12 col-md-12 col-lg-6">
-          <img class="imgContacto" src="imagenes/gmail.jpg" alt="Logo De Gmail">
-          <p class="wow pulse pContacto"> Email: CreativaSP@gmail.com</p>
-        </div>
-     
-        <div class="col-sm-12 col-md-12 col-lg-6">
-          <img class="imgContacto" src="Imagenes/whatsapp.jpg" alt="Logo De Whatsapp">
-          <p class="wow pulse pContacto">Whatsapp: 1187582415</p>  
-        </div>
-      
+      <div class="divimgcontacto">
+        <img class="imgContacto" src="Imagenes/whatsapp.jpg" alt="Logo De Whatsapp">
+        <a href="whatsapp.web" class="wow pulse pContacto">Whatsapp: 1187582415</a>  
+      </div>    
+      <a href="https://web.whatsapp.com/%F0%9F%8C%90/es" class="a btn">Contactanos</a>
+  </div>
+</div>
+</div>
 
-      </section>
 
-        <section>
-          <h2 class="h2">Tambien podes dejarnos un mensaje</h2>
+        <section class="sectioncontactanos row">
+          <div class="col-sm-12 col.md-12 col-lg-6">
+          <h2 class="wow bounceInDown h2">Tambien podes dejarnos un mensaje</h2>
           <form class="sectionMensaje" action="">
             <div>
             <label for="Nombre">Nombre y Apellido:</label>
@@ -103,7 +113,7 @@
               <textarea name="Mensaje" id="" cols="30" rows="10"></textarea>
             </div>
 
-            <div>
+            <div class="divinput">
               <input class="divInput" type="reset" value="Cancelar">
               <input class="divInput" type="submit" value="Enviar">
           </div>
@@ -111,8 +121,9 @@
           </form>
         </div>
 
-        
+      </div>
       </section>
+ 
     </main>
 
     <footer class="pie">
@@ -124,7 +135,7 @@
       </a>
       
       <a href="https://www.instagram.com/creativa.sp/" target="_blank">
-          <img src="imagenes/instagram-logo.png" alt="Seguinos en instagram"> 
+          <img src="imagenes/instagramlogoneon.jpg" alt="Seguinos en instagram"> 
       </a>
   
       <a href="https://www.tiktok.com/@creativa.sp?_t=8UfkLjLhj77&_r=1" target="_blank">
