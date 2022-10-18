@@ -1,0 +1,103 @@
+//mixin flex para centrar//
+@mixin flex($dflex,$jcontent,$aitem){
+    display: $dflex;
+    justify-content: $jcontent;
+    align-items: $aitem;
+}
+//mapa//
+$bgcolores:(
+    'bg':#e0bbe4,
+    'bg1':#ccdcfd,
+    'bg2':#bbbefe,
+    'bg3':#9ea3f5,
+    'bg4':#e8bffb,
+    'bg5':#f2a5e8,
+    'bg6':#dd99e2,
+);
+
+.carta{
+    @include flex (flex,center,center);
+    border-color: black;
+    border-style: solid;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+
+}
+
+.imgcardcontacto{
+    width:30rem;
+    height: 30rem;
+}
+
+
+
+    .pContacto{
+        font-size: 2rem;
+        margin-top: 2rem;
+        text-align: center;
+    
+    }
+
+    .a{
+        @include flex(flex,center,center);
+        width: auto;
+        height: 10rem;
+        font-size: 5rem;
+        background-color: map-get($map: $bgcolores, $key:bg6 );
+        border-radius: 10rem;
+
+    }
+    
+
+
+
+
+
+
+.divContacto{
+    text-align: center;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin: 2rem;
+}
+
+
+
+.sectioncontactanos{
+    @include flex(flex,center,center);
+}
+.sectionMensaje{
+    display: flex;
+    flex-direction: column;
+}
+
+    .sectionMensaje div{
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+  
+   .sectionMensaje div label{
+      font-weight: bolder;
+      font-size: 4rem;
+      color: darkmagenta;
+      margin-right: 1rem;
+   }
+
+   .sectionMensaje div input{
+
+      width: 13rem;
+      height: 4rem;
+
+   }
+.divinput{
+    @include flex (flex,center,center);
+
+input{
+    border-color: darkmagenta;
+    border-style: solid;
+    color: darkmagenta;
+    border: 4rem 4rem;
+    margin-bottom: 1rem;
+
+}
+}

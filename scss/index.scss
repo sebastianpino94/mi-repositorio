@@ -1,13 +1,23 @@
+//mixin flex para centrar//
+@mixin flex($dflex,$jcontent,$aitem){
+    display: $dflex;
+    justify-content: $jcontent;
+    align-items: $aitem;
+}
+
 .divfigure{
-    background-image: url(Imagenes/backgroundimage2.png) ;
+background-image: url(Imagenes/backgroundimage2.webp);
  background-size: cover;
  background-repeat: none;
  }
 
  .bgfigure1{
+    @include flex (flex,center,center);
     border-color: #000000;
     border-style: solid;
+    border-radius: 1rem;
     background-color: $bgnegro;
+    
 }
 
 .fontFigure{
@@ -18,7 +28,7 @@
 }
 
 .fontFigure:hover{
-font-size: 3rem;
+font-size: 2.5rem;
 }
 
 .sectionImg{
@@ -33,5 +43,6 @@ font-size: 3rem;
     font-size: 3rem;
     overflow: hidden;
     padding: 1rem 1rem;
+    text-align: center;
 
 }

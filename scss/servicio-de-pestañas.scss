@@ -89,7 +89,7 @@ $bgcolores:(
             font-size:2rem;
             font-weight: $negrita;
             transition: font-size 1s;
-            background: map-get($map: $bgcolores, $key:bg6 );
+            background-color: map-get($map: $bgcolores, $key:bg6 );
             border-color:black;
             border:1rem;
             .cardUñas a:hover{
